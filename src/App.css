@@ -1,0 +1,118 @@
+/* Main container */
+
+
+
+.weather-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0px;
+  background-image: url("/8857025.jpg");
+  background-size: cover;
+}
+
+/* Weather Card */
+.weather-card {
+  background: linear-gradient(to bottom right, white, #2ffffc); /* white + greenyellow */
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* City name */
+.city-name {
+  font-size: 2.5rem;
+  color: #101010;
+  margin-bottom: 10px;
+}
+
+/* Weather type */
+.weather-type {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Weather icon */
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* Input box */
+.city-input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 70%;
+  background: #ebfffc;
+  margin-bottom: 15px;
+}
+.city-input{
+  background-color: #ffffff; 
+}
+
+/* Search button */
+.search-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0293f3; /* limegreen */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background 0.3s;
+}
+
+.search-btn:hover {
+  background-color: #0727f6; 
+  transition: background 0.3s;
+  transform: scale(1);
+}
+
+/* Weather details */
+.weather-details {
+  background-color: #f4ffff;
+  border-radius: 15px;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+/* Each row inside details */
+.weather-details p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 500;
+  margin: 0;
+  background-color: #ffffff;
+  padding: 10px 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+.weather-details p:hover{
+  transform: scale(0.98);
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+/* Weather icons (temp, humidity, wind) */
+.weather-details img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+

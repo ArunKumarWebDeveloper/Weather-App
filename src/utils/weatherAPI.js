@@ -14,7 +14,7 @@ export async function fetchWeather(city) {
       appid: API_KEY,
     },
   });
-    console.log("⚙️ [weatherAPI] response:", response.data);
+    console.log(" [weatherAPI] response:", response.data);
 
   return response.data;
 }
